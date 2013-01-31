@@ -15,9 +15,8 @@ $tpl = eZTemplate::factory();
 $tpl->setVariable( 'transaction', $transaction );
 
 $Result = array();
-$Result['content']   = $tpl->fetch( 'design:dibs/transaction/details.tpl' );
-$Result['left_menu'] = 'design:parts/dibs/menu.tpl';
-$Result['path']      = array(
+$Result['content'] = $tpl->fetch( 'design:dibs/transaction/details.tpl' );
+$Result['path']    = array(
 	array(
 		'text' => ezpI18n::tr( 'extension/dibs', 'DIBS Transactions' ),
 		'url'  => 'dibs/transactions'

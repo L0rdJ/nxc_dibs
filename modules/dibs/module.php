@@ -33,13 +33,13 @@ $ViewList = array(
 	'transactions' => array(
 		'functions'               => array( 'admin' ),
 		'script'                  => 'transaction/list.php',
-		'default_navigation_part' => 'nxcdibsnavigationpart'
+		'default_navigation_part' => 'ezsetupnavigationpart'
 	),
 	'details' => array(
 		'functions'               => array( 'admin' ),
 		'script'                  => 'transaction/view.php',
 		'params'                  => array( 'transactionID' ),
-		'default_navigation_part' => 'nxcdibsnavigationpart'
+		'default_navigation_part' => 'ezsetupnavigationpart'
 	)
 );
 $FunctionList = array(
